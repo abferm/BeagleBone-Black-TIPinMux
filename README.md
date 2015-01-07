@@ -10,8 +10,10 @@ The current version only provides the muxes for the user accessable pins, but ho
 
 # Sources
 http://elinux.org/Beagleboard:BeagleBoneBlack#LATEST_PRODUCTION_FILES_.28C.29
+
 https://github.com/derekmolloy/boneDeviceTree/tree/master/docs
 
 # The Tool
 Download V2 from TI's website. The BBB uses the ZCZ package of the AM335X.
+
 http://www.ti.com/tool/PINMUXTOOL
