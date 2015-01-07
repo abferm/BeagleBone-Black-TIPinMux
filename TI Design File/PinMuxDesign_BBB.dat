@@ -107,8 +107,8 @@ Pad 2 ZCE B16 - ZCZ C15 - spi0_cs1 8 NotSelected NotSelected NotSelected NotSele
 Pad 2 ZCE E18 - ZCZ C18 - eCAP0_in_PWM0_out 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
 Pad 2 ZCE F19 - ZCZ E18 - uart0_ctsn 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
 Pad 2 ZCE F18 - ZCZ E17 - uart0_rtsn 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
-Pad 2 ZCE E19 - ZCZ E15 - uart0_rxd 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
-Pad 2 ZCE F17 - ZCZ E16 - uart0_txd 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE E19 - ZCZ E15 - uart0_rxd 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE F17 - ZCZ E16 - uart0_txd 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 0 2 
 Pad 2 ZCE E17 - ZCZ D18 - uart1_ctsn 8 NotSelected NotSelected NotSelected Selected NotSelected NotSelected NotSelected NotSelected 2 1 2 
 Pad 2 ZCE D19 - ZCZ D17 - uart1_rtsn 8 NotSelected NotSelected NotSelected Selected NotSelected NotSelected NotSelected NotSelected 2 1 2 
 Pad 2 ZCE D18 - ZCZ D16 - uart1_rxd 8 NotSelected NotSelected NotSelected NotSelected Reserved NotSelected NotSelected SafeMode 2 1 2 
