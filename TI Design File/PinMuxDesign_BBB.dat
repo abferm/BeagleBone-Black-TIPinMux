@@ -1,0 +1,143 @@
+//Texas Instruments Pin Mux Utility Design State File
+//Target Device Type=AM335x Rev 1.x
+//Pin Mux Utility Version=2.5.2.0
+//Design State Format Version=1.2
+//Pin Mux Device Model Version=2.5.1.0
+
+PkgType ZCZ
+
+IoPower VDDSHV1 3.3V
+IoPower VDDSHV2 3.3V
+IoPower VDDSHV3 3.3V
+IoPower VDDSHV4 3.3V
+IoPower VDDSHV5 3.3V
+IoPower VDDSHV6 3.3V
+
+AllPads PinMuxTable
+Begin
+Pad 2 ZCE W10 - ZCZ U7 - gpmc_ad0 8 NotSelected Selected Reserved Reserved Reserved Reserved Reserved NotSelected 2 1 0 
+Pad 2 ZCE V9 - ZCZ V7 - gpmc_ad1 8 NotSelected Selected Reserved Reserved Reserved Reserved Reserved NotSelected 2 1 0 
+Pad 2 ZCE V12 - ZCZ R8 - gpmc_ad2 8 NotSelected Selected Reserved Reserved Reserved Reserved Reserved NotSelected 2 1 0 
+Pad 2 ZCE W13 - ZCZ T8 - gpmc_ad3 8 NotSelected Selected Reserved Reserved Reserved Reserved Reserved NotSelected 2 1 0 
+Pad 2 ZCE V13 - ZCZ U8 - gpmc_ad4 8 NotSelected Selected Reserved Reserved Reserved Reserved Reserved NotSelected 2 1 0 
+Pad 2 ZCE W14 - ZCZ V8 - gpmc_ad5 8 NotSelected Selected Reserved Reserved Reserved Reserved Reserved NotSelected 2 1 0 
+Pad 2 ZCE U14 - ZCZ R9 - gpmc_ad6 8 NotSelected Selected Reserved Reserved Reserved Reserved Reserved NotSelected 2 1 0 
+Pad 2 ZCE W15 - ZCZ T9 - gpmc_ad7 8 NotSelected Selected Reserved Reserved Reserved Reserved Reserved NotSelected 2 1 0 
+Pad 2 ZCE V15 - ZCZ U10 - gpmc_ad8 8 NotSelected Selected NotSelected NotSelected NotSelected NotSelected Reserved NotSelected 2 1 0 
+Pad 2 ZCE W16 - ZCZ T10 - gpmc_ad9 8 NotSelected Selected NotSelected NotSelected NotSelected NotSelected Reserved NotSelected 2 1 0 
+Pad 2 ZCE T12 - ZCZ T11 - gpmc_ad10 8 NotSelected Selected NotSelected NotSelected NotSelected NotSelected Reserved NotSelected 2 1 0 
+Pad 2 ZCE U12 - ZCZ U12 - gpmc_ad11 8 NotSelected Selected NotSelected NotSelected NotSelected NotSelected Reserved NotSelected 2 1 0 
+Pad 2 ZCE U13 - ZCZ T12 - gpmc_ad12 8 NotSelected Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 0 
+Pad 2 ZCE T13 - ZCZ R12 - gpmc_ad13 8 NotSelected Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 0 
+Pad 2 ZCE W17 - ZCZ V13 - gpmc_ad14 8 NotSelected Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 0 
+Pad 2 ZCE V17 - ZCZ U13 - gpmc_ad15 8 NotSelected Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 0 
+Pad 2 ZCE - - ZCZ R13 - gpmc_a0_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE - - ZCZ V14 - gpmc_a1_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE - - ZCZ U14 - gpmc_a2_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE - - ZCZ T14 - gpmc_a3_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE - - ZCZ R14 - gpmc_a4_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE - - ZCZ V15 - gpmc_a5_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE - - ZCZ U15 - gpmc_a6_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE - - ZCZ T15 - gpmc_a7_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE - - ZCZ V16 - gpmc_a8_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE - - ZCZ U16 - gpmc_a9_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE - - ZCZ T16 - gpmc_a10_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE - - ZCZ V17 - gpmc_a11_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE R15 - ZCZ T17 - gpmc_wait0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 1 
+Pad 2 ZCE W18 - ZCZ U17 - gpmc_wpn 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 1 
+Pad 2 ZCE V18 - ZCZ U18 - gpmc_be1n_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 1 
+Pad 2 ZCE W8 - ZCZ V6 - gpmc_csn0 8 NotSelected Reserved Reserved Reserved Reserved Reserved Reserved SafeMode 2 1 1 
+Pad 2 ZCE V14 - ZCZ U9 - gpmc_csn1 8 NotSelected NotSelected Selected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 1 
+Pad 2 ZCE U15 - ZCZ V9 - gpmc_csn2 8 NotSelected NotSelected Selected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 1 
+Pad 2 ZCE U17 - ZCZ T13 - gpmc_csn3 8 NotSelected Reserved Reserved NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 1 
+Pad 2 ZCE V16 - ZCZ V12 - gpmc_clk_mux0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE V10 - ZCZ R7 - gpmc_advn_ale 8 NotSelected Reserved NotSelected Reserved Reserved Reserved Reserved SafeMode 2 1 1 
+Pad 2 ZCE W9 - ZCZ T7 - gpmc_oen_ren 8 NotSelected Reserved NotSelected Reserved Reserved Reserved Reserved SafeMode 2 1 1 
+Pad 2 ZCE U8 - ZCZ U6 - gpmc_wen 8 NotSelected Reserved NotSelected Reserved Reserved Reserved Reserved SafeMode 2 1 1 
+Pad 2 ZCE V8 - ZCZ T6 - gpmc_be0n_cle 8 NotSelected Reserved NotSelected Reserved Reserved Reserved Reserved SafeMode 2 1 1 
+Pad 2 ZCE U1 - ZCZ R1 - lcd_data0 8 Selected NotSelected NotSelected NotSelected Reserved NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE U2 - ZCZ R2 - lcd_data1 8 Selected NotSelected NotSelected NotSelected Reserved NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE V1 - ZCZ R3 - lcd_data2 8 Selected NotSelected NotSelected NotSelected Reserved NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE V2 - ZCZ R4 - lcd_data3 8 Selected NotSelected NotSelected NotSelected Reserved NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE W2 - ZCZ T1 - lcd_data4 8 Selected NotSelected NotSelected NotSelected Reserved NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE W3 - ZCZ T2 - lcd_data5 8 Selected NotSelected NotSelected NotSelected Reserved NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE V3 - ZCZ T3 - lcd_data6 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE U3 - ZCZ T4 - lcd_data7 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE V4 - ZCZ U1 - lcd_data8 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE W4 - ZCZ U2 - lcd_data9 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE U5 - ZCZ U3 - lcd_data10 8 Selected NotSelected NotSelected NotSelected Reserved NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE V5 - ZCZ U4 - lcd_data11 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE V6 - ZCZ V2 - lcd_data12 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE U6 - ZCZ V3 - lcd_data13 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE W6 - ZCZ V4 - lcd_data14 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE V7 - ZCZ T5 - lcd_data15 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE U7 - ZCZ U5 - lcd_vsync 8 Selected NotSelected Reserved NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE T7 - ZCZ R5 - lcd_hsync 8 Selected NotSelected Reserved NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE W5 - ZCZ V5 - lcd_pclk 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE W7 - ZCZ R6 - lcd_ac_bias_en 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE H19 - ZCZ F17 - mmc0_dat3 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 1 
+Pad 2 ZCE H18 - ZCZ F18 - mmc0_dat2 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 1 
+Pad 2 ZCE H17 - ZCZ G15 - mmc0_dat1 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 1 
+Pad 2 ZCE G18 - ZCZ G16 - mmc0_dat0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 1 
+Pad 2 ZCE G19 - ZCZ G17 - mmc0_clk 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 1 
+Pad 2 ZCE G17 - ZCZ G18 - mmc0_cmd 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 1 
+Pad 2 ZCE J19 - ZCZ H16 - gmii1_col 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE J18 - ZCZ H17 - gmii1_crs 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE K19 - ZCZ J15 - gmii1_rxer 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE K17 - ZCZ J16 - gmii1_txen 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE L19 - ZCZ J17 - gmii1_rxdv 8 NotSelected Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 0 0 
+Pad 2 ZCE M17 - ZCZ J18 - gmii1_txd3 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE N18 - ZCZ K15 - gmii1_txd2 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE M18 - ZCZ K16 - gmii1_txd1 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE L18 - ZCZ K17 - gmii1_txd0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE N19 - ZCZ K18 - gmii1_txclk 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE M19 - ZCZ L18 - gmii1_rxclk 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE N17 - ZCZ L17 - gmii1_rxd3 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE N16 - ZCZ L16 - gmii1_rxd2 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE P19 - ZCZ L15 - gmii1_rxd1 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE P18 - ZCZ M16 - gmii1_rxd0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE K18 - ZCZ H18 - rmii1_refclk 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 0 
+Pad 2 ZCE P17 - ZCZ M17 - mdio_data 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 1 
+Pad 2 ZCE R19 - ZCZ M18 - mdio_clk 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 1 
+Pad 2 ZCE A18 - ZCZ A17 - spi0_sclk 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE B18 - ZCZ B17 - spi0_d0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE B17 - ZCZ B16 - spi0_d1 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE A17 - ZCZ A16 - spi0_cs0 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE B16 - ZCZ C15 - spi0_cs1 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE E18 - ZCZ C18 - eCAP0_in_PWM0_out 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE F19 - ZCZ E18 - uart0_ctsn 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE F18 - ZCZ E17 - uart0_rtsn 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE E19 - ZCZ E15 - uart0_rxd 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE F17 - ZCZ E16 - uart0_txd 8 NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE E17 - ZCZ D18 - uart1_ctsn 8 NotSelected NotSelected NotSelected Selected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE D19 - ZCZ D17 - uart1_rtsn 8 NotSelected NotSelected NotSelected Selected NotSelected NotSelected NotSelected NotSelected 2 1 2 
+Pad 2 ZCE D18 - ZCZ D16 - uart1_rxd 8 NotSelected NotSelected NotSelected NotSelected Reserved NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE C19 - ZCZ D15 - uart1_txd 8 NotSelected NotSelected NotSelected NotSelected Reserved NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE C18 - ZCZ C17 - I2C0_SDA 8 NotSelected NotSelected NotSelected NotSelected Reserved Reserved Reserved SafeMode 2 1 2 
+Pad 2 ZCE B19 - ZCZ C16 - I2C0_SCL 8 NotSelected NotSelected NotSelected NotSelected Reserved Reserved Reserved SafeMode 2 1 2 
+Pad 2 ZCE - - ZCZ A13 - mcasp0_aclkx_mux0 8 Selected NotSelected Reserved NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 0 
+Pad 2 ZCE - - ZCZ B13 - mcasp0_fsx_mux0 8 Selected NotSelected Reserved NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 0 
+Pad 2 ZCE - - ZCZ D12 - mcasp0_axr0_mux0 8 Selected NotSelected Reserved NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 0 
+Pad 2 ZCE - - ZCZ C12 - mcasp0_ahclkr_mux0 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 0 
+Pad 2 ZCE - - ZCZ B12 - mcasp0_aclkr_mux0 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 0 
+Pad 2 ZCE - - ZCZ C13 - mcasp0_fsr_mux0 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 0 
+Pad 2 ZCE - - ZCZ D13 - mcasp0_axr1_mux0 8 Selected NotSelected Reserved NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 0 
+Pad 2 ZCE - - ZCZ A14 - mcasp0_ahclkx_mux0 8 Selected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected NotSelected 2 1 0 
+Pad 2 ZCE C15 - ZCZ A15 - xdma_event_intr0 8 NotSelected Reserved NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE B15 - ZCZ D14 - xdma_event_intr1 8 NotSelected Reserved NotSelected NotSelected NotSelected NotSelected NotSelected SafeMode 2 1 2 
+Pad 2 ZCE A16 - ZCZ A10 - nRESETIN_OUT 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved Reserved 2 1 2 
+Pad 2 ZCE C17 - ZCZ B18 - nNMI 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved Reserved 2 1 2 
+Pad 2 ZCE C14 - ZCZ C11 - TMS 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved Reserved 2 1 1 
+Pad 2 ZCE B13 - ZCZ B11 - TDI 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved Reserved 2 1 1 
+Pad 2 ZCE A14 - ZCZ A11 - TDO 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved Reserved 2 0 1 
+Pad 2 ZCE B14 - ZCZ A12 - TCK 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved Reserved 2 1 1 
+Pad 2 ZCE A13 - ZCZ B10 - nTRST 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved Reserved 2 1 0 
+Pad 2 ZCE A15 - ZCZ C14 - EMU0 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved NotSelected 2 1 1 
+Pad 2 ZCE D14 - ZCZ B14 - EMU1 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved NotSelected 2 1 1 
+Pad 2 ZCE B7 - ZCZ B5 - RTC_porz 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved Reserved 2 1 2 
+Pad 2 ZCE C7 - ZCZ C6 - PMIC_POWER_EN 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved Reserved 2 0 1 
+Pad 2 ZCE B5 - ZCZ C5 - EXT_WAKEUP 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved Reserved 2 1 0 
+Pad 2 ZCE A7 - ZCZ B4 - ENZ_KALDO_1P8V 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved Reserved 2 1 2 
+Pad 2 ZCE G16 - ZCZ F16 - USB0_DRVVBUS 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved NotSelected 2 0 0 
+Pad 2 ZCE - - ZCZ F15 - USB1_DRVVBUS 8 Selected Reserved Reserved Reserved Reserved Reserved Reserved NotSelected 2 0 0 
+End
